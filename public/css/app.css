@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
+body{
+  font-family: 'Noto Kufi Arabic', sans-serif !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+p{
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: black !important;
+}
+i{
+  font-size: 22px !important;
+}
+  
+.image-showTopPage{
+  height: 500px !important;
+}
+
+.image-showTopPage img{
+ height: 100%;
+}
+.btnIcon i{
+  font-size: 16px !important;
+}
+.iconDinger{
+  font-size: 50px !important;
+}
+
+.textAreaInput{
+  resize: none !important;
+  overflow: hidden !important;
+}
+
+@media (max-width: 768px) {
+  .image-showTopPage img {
+    width: 450px;
+    height: auto;
+    margin-right: 50px !important;
+  }
+}
+
+.dropdown {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ }
+ 
+ .dropdown > li {
+  float: left;
+  position: relative;
+ }
+ 
+ .dropdown .sub-menu {
+  list-style-type: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  background-color: aqua;
+ }
+ 
+ .dropdown > li:hover .sub-menu {
+  display: block;
+ }
+ 
+
+@media (max-width: 480px)  {
+  .image-showTopPage img {
+    width: 350px;
+    height: auto;
+    margin-right: -70px !important;
+  }
+  p{
+    font-size: 15px !important;
+  }
+}
